@@ -1,0 +1,226 @@
+::-webkit-scrollbar {
+    width: 10px;
+    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #584596;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #51408a; 
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    color: #fff;
+  }
+  
+  body {
+   
+    height: 100vh;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  body, input, button {
+    font: 16px Roboto, sans-serif;
+  }
+
+  
+  .content {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+  }
+  
+  .info {
+    margin-right: 167px;
+    background: #000000;
+    padding: 0 40px;
+  }
+  
+  .info header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+    margin: auto;
+  }
+  
+  .info header .image {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+  }
+  
+  .info header .image img{
+    margin-top: -92px;
+    height: 92px;
+    margin-left: -50px;
+  }
+  
+ 
+
+  .info header h1 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    margin-top: 0px;
+  }
+  
+  .info header span {
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .info main {
+    position: relative;
+    height: 50vh;
+  }
+  
+  .info main .menu {
+    height: 95%;
+    display: grid;
+  }
+  
+  .info main .menu span {
+    font-size: 20px;
+    font-weight: 200;
+  }
+  
+  .info main .menu div {
+    margin-top: 20px;
+    overflow-y: auto;
+  }
+  
+  .info main .menu button {
+    background: #564593;
+    border:1px solid rgba(0,0,0,0.2);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0px 3px 3px rgba(0,0,0,0.3);
+    cursor: pointer;
+  }
+  
+  .info main .menu button:hover {
+    background: rgba(0,0,0,0.3);
+  }
+  
+  .info main .menu div a{
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    border-radius: 5px;
+  }
+  
+  .info main .menu div a:hover{
+    background:#51408a;
+  }
+  
+  
+  .info main .menu div a span{
+    border-radius: 60px;
+    color: #725AC1;
+    background: #fff;
+    font-weight: 600;
+    padding: 2px 10px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .info main .menu div a p{
+    margin-left: 20px;
+    font-size: 15px;
+  }
+  
+  .calendar {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    background: #242038;
+    justify-content: center;
+  }
+  
+  .calendar header{
+    font-size: 80px;
+    font-weight: 900;
+    width: 100%;
+    text-align: center;
+    padding-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .calendar header span{
+    cursor: pointer;
+  }
+  
+  .calendar header span:last-of-type{
+    margin-left: 35px;
+  }
+  
+  .calendar header span:last-of-type:hover svg path{
+    stroke: #d0d0d0;
+  }
+  
+  .calendar header span:first-of-type {
+    margin-right: 35px;
+  }
+  
+  .calendar header span:first-of-type:hover svg path {
+    stroke: #d0d0d0;
+  }
+  
+  .calendar header span svg {
+    display: block;
+    margin:auto;
+  }
+  
+  .calendar header p span {
+    margin: 0 !important;
+  }
+  
+  .calendar main {
+    display: flex;
+    justify-content:center;
+    width: 100%;
+  }
+  
+  .calendar footer {
+    width: 100%;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 7px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    font-size: 30px;
+    
+  }
+
+  .otherMonth {
+    color: gray;
+  }
+
+ th td {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    
+
+ }
